@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "financial-assistant-bot"
+version = "0.1.0"
+description = ""
+authors = ["barash <vadimdominik2005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.1.1"
+pydantic-settings = "^2.1.0"
+motor = "^3.3.2"
+
+
+[tool.poetry.group.test.dependencies]
+mypy = "^1.7.0"
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
